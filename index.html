@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator Gameboy</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="shadowContainer">
+        <div id="container">
+            <div class="section" id="pager">
+                <h5 class="boxTitle">Pager</h5>
+                <div class="boxBig" id="boxPager"></div>
+            </div>
+            <div class="section" id="phone">
+                <h5 class="boxTitle">Phone</h5>
+                <div class="boxBig" id="boxPhone"></div>
+                <div id="container-numbers">
+                    <div class="row">
+                        <button onclick="btn1()" class="btnDigit">1</button>
+                        <button onclick="btn2()" class="btnDigit">2</button>
+                        <button onclick="btn3()" class="btnDigit">3</button>
+                    </div>
+                    <div class="row">
+                        <button onclick="btn4()" class="btnDigit">4</button>
+                        <button onclick="btn5()" class="btnDigit">5</button>
+                        <button onclick="btn6()" class="btnDigit">6</button>
+                    </div>
+                    <div class="row">
+                        <button onclick="btn7()" class="btnDigit">7</button>
+                        <button onclick="btn8()" class="btnDigit">8</button>
+                        <button onclick="btn9()" class="btnDigit">9</button>
+                    </div>
+                    <div class="row">
+                        <button onclick="btn_x()" class="btnDigit">*</button>
+                        <button onclick="btn0()" class="btnDigit">0</button>
+                        <button onclick="btn_n()" class="btnDigit">#</button>
+                    </div>
+                </div>
+                <button onclick="reset()" class="boxBig" id="btn-reset">RESET</button>
+                <button onclick="send()" class="boxBig" id="btn-send">SEND</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

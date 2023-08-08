@@ -1,0 +1,123 @@
+@font-face {
+    src: url(PressStart2P-Regular.ttf);
+    font-family: "gameboy";
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #e9e3ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    font-family: "gameboy";
+    font-size: 25px;
+}
+
+#shadowContainer {
+    padding: 10px;
+    background-color: #fefffe;
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.199);
+}
+
+#container {
+    width: 400px;
+    background-color: #fefffe;
+    padding: 6px;
+    box-shadow: 0 0 1px rgb(92, 92, 92);
+    border-radius: 10px;
+}
+
+.section {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#pager {
+    background-color: #293034;
+    color: #f7f8f9;
+}
+
+#phone {
+    background-color: #d9dad8;
+    color: black;
+    margin-top: 50px;
+}
+
+.boxTitle {
+    margin: 0;
+    padding: 10px;
+    font-weight: lighter;
+}
+
+.boxBig {
+    background-color: #9dc4b3;
+    padding: 20px 0px;
+    width: 94%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#boxPager {
+    color: black;
+    height: 20px;
+}
+
+#boxPhone {
+    color: #f7f8f9;
+    background-color: #444544;
+    height: 20px;
+}
+
+#container-numbers {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 0 10px 0;
+}
+
+.btnDigit {
+    background-color: #f7f8f9;
+    padding: 10px 40px;
+    font-family: inherit;
+    font-size: inherit;
+    border: none;
+}
+
+.btnDigit:active {
+    background-color: #c7c7c7;
+}
+
+#btn-reset {
+    font-family: inherit;
+    font-size: 20px;
+    padding: 5px;
+    background-color: #be4929;
+    color: #f7f8f9;
+}
+
+#btn-reset:active {
+    background-color: #973b22;
+}
+
+#btn-send {
+    font-family: inherit;
+    font-size: 20px;
+    padding: 5px;
+    background-color: #3c9c7a;
+}
+
+#btn-send:active {
+    background-color: #2a6b54;
+}
